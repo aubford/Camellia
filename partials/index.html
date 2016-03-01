@@ -1,0 +1,112 @@
+<header class="container-fluid">
+  <div class="row">
+    <div class="guaranteed">Guaranteed Awesome</div>
+    <div class="welcome">Welcome to MEAN Tea</div>
+    <nav class="navbar navbar-default navbar-lg">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="row">
+
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#/">Home<span class="sr-only">(current)</span></a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <label for="category">Search by category:</label>
+                <select name="category" ng-model="category">
+                  <option value="">All</option>
+                  <option value="awesome">Awesome</option>
+                  <option value="dark">Dark</option>
+                  <option value="cold">Cold</option>
+                  <option value="dry">Dry</option>
+                  <option value="hot">Hot</option>
+                  <option value="summer">Summer</option>
+                  <option value="lucid">Lucid</option>
+                  <option value="warm">Warm</option>
+                  <option value="winter">Winter</option>
+                  <option value="spring">Spring</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="search">Search by name:</label>
+                <input type="text" name="search" class="form-control" placeholder="Search" ng-model="search">
+              </div>
+            </form>
+
+            <a href="#/checkout" type="button" class="btn btn-warning navbar-btn navbar-right">Checkout | Bag: {{count}}</a>
+
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div> <!-- /.row -->
+</header> <!-- header -->
+
+<div class="container-fluid">
+  <div class="row">
+    <table class="table">
+      <thead>
+        <th class="col-xs-4">Tea</th>
+        <th class="col-xs-6">Information
+          <div class="pull-right">
+            <label for="pred">Sort by price: </label>
+            <select name="pred" ng-model="pred">
+              <option value="+">Lowest</option>
+              <option value="-">Highest</option>
+            </select>
+          </div>
+        </th>
+      </thead>
+      <tbody>
+        <tr ng-repeat="tea in teas | filter:{name:search, categories:category} | orderBy: pred+'price'" ng-init="tea.quantity='1'">
+          <td><img src="{{tea.imageUrl}}"></td>
+          <td>
+            <div>
+              <b>{{tea.name}}</b>
+              <div class="pull-right">
+                <label for="quantity">Quantity:</label>
+                <!-- !!!better way to init quantity?-->
+                <!-- !!!how to have an iteration-based variable without tacking it on to the object-->
+                <select name="quantity" ng-model="tea.quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                </select>
+                <button class="btn btn-warning" ng-click="bagAdd(tea)">Add to Bag</button>
+              </div>
+              <div>
+                <p>Price: {{tea.price | currency}}</p>
+                <p>Caffeine Scale: {{tea.caffeineScale}}</p>
+                <p>Ingredients: {{tea.ingredients}}</p>
+                <p>Rating: {{tea.rating}}</p>
+                <p>In Stock?: {{tea.inStock}}</p>
+                <p>Categories:
+                  <ul>
+                    <li ng-repeat="category in tea.categories">{{category}}</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

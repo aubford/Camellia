@@ -1,0 +1,20 @@
+.guaranteed {
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+.welcome {
+  color: orange;
+  font-size: 40pt;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.no-pad-L {
+  padding-left:0 !important;
+}
+
+.block {
+  display:block;
+}
