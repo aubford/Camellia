@@ -18,3 +18,7 @@
 .block {
   display:block;
 }
+
+.float-margin {
+  margin: 2vw;
+}

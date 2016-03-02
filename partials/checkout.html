@@ -29,6 +29,8 @@
 
 <div class="container-fluid">
   <div class="row">
+    <h3 class="col-xs-9">My Shopping Bag</h3>
+    <h3>Total: {{total | currency}}</h3>
     <table class="table">
       <thead>
         <th>Product</th>
@@ -53,5 +55,6 @@
         </tr>
       </tbody>
     </table>
+    <button class="btn btn-danger pull-right float-margin" ng-click="placeOrder()">Place Order</button>
   </div>
 </div>
