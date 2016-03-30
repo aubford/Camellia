@@ -39,12 +39,12 @@
     {
         "_id": "55c8ee82152165d244b98303",
         "name": "Pressor leaf",
-        "ingredients": "purina chow, flavorings, pepper, acorns, quality tallow, old sock, bay leaf",
+        "ingredients": "pepper, acorns, quality tallow, bay leaf",
         "caffeineScale": 153,
         "price": 5496,
         "inStock": true,
         "rating": 1,
-        "imageUrl": "http://s7d5.scene7.com/is/image/Teavana/31358_d?$cimg$",
+        "imageUrl": "https://sits-pod26.demandware.net/dw/image/v2/AAFV_PRD/on/demandware.static/-/Sites-Teavana_Master_Catalog/default/dwbdf87659/images/Product%20Images/Tea/White%20Tea/31361_silveryinzhenpearlrtea.jpg?sw=225&sh=225",
         "__v": 0,
         "categories": ["dry", "hot", "awesome"]
     },
