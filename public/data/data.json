@@ -1,8 +1,8 @@
 [
     {
         "_id": "55c8ee82152165d244b98300",
-        "name": "Bayard stew",
-        "ingredients": "concentrated gluten, jewelry, dill, beetle nut, toast",
+        "name": "Bayard",
+        "ingredients": "curry, dill, barley",
         "caffeineScale": 244,
         "price": 1540,
         "inStock": true,
@@ -14,56 +14,56 @@
 
     {
         "_id": "55c8ee82152165d244b98301",
-        "name": "Incompactness syrup",
-        "ingredients": "fennel, nutmeg leaves, parsley, cream of 'cream of cream', blarney",
+        "name": "Maple Green",
+        "ingredients": "fennel, nutmeg, parsley, chive",
         "caffeineScale": 49,
         "price": 7348,
         "inStock": true,
         "rating": 2,
-        "imageUrl": "http://s7d5.scene7.com/is/image/Teavana/32303_d?$cimg$",
+        "imageUrl": "./data/tea4.jpg",
         "__v": 0,
-        "categories": ["awesome"]
+        "categories": ["summer"]
     },
     {
         "_id": "55c8ee82152165d244b98302",
         "name": "Flexner white tea",
-        "ingredients": "hot sauce, iron, beetle nut, fresco, blarney, raw mashed potato",
+        "ingredients": "grass, cream, raw mashed potato",
         "caffeineScale": 38,
         "price": 4991,
         "inStock": true,
         "rating": 4,
-        "imageUrl": "http://s7d5.scene7.com/is/image/Teavana/31358_d?$cimg$",
+        "imageUrl": "./data/tea1.jpg",
         "__v": 0,
         "categories": ["cold"]
     },
     {
         "_id": "55c8ee82152165d244b98303",
         "name": "Pressor leaf",
-        "ingredients": "pepper, acorns, quality tallow, bay leaf",
+        "ingredients": "pepper, ginger, bay leaf",
         "caffeineScale": 153,
         "price": 5496,
         "inStock": true,
         "rating": 1,
-        "imageUrl": "https://sits-pod26.demandware.net/dw/image/v2/AAFV_PRD/on/demandware.static/-/Sites-Teavana_Master_Catalog/default/dwbdf87659/images/Product%20Images/Tea/White%20Tea/31361_silveryinzhenpearlrtea.jpg?sw=225&sh=225",
+        "imageUrl": "./data/tea2.jpg",
         "__v": 0,
-        "categories": ["dry", "hot", "awesome"]
+        "categories": ["dry", "hot"]
     },
     {
         "_id": "55c8ee82152165d244b98304",
         "name": "Flexner veggie tea",
-        "ingredients": "cream of tartar, eggplant, cake, deer antler",
+        "ingredients": "cream of tartar, eggplant, cake",
         "caffeineScale": 181,
         "price": 2445,
         "inStock": true,
         "rating": 1,
-        "imageUrl": "http://s7d5.scene7.com/is/image/Teavana/32621_d?$cimg$",
+        "imageUrl": "./data/tea3.jpg",
         "__v": 0,
         "categories": ["summer"]
     },
     {
         "_id": "55c8ee82152165d244b98305",
         "name": "Topflighter malt",
-        "ingredients": "botox, toast, cream of 'cream of 'cream of cream'', kitchen scraps, beef, aligator tongue, lawn clippings",
+        "ingredients": "Tomato, creme fraiche, beef, tobacco",
         "caffeineScale": 241,
         "price": 4486,
         "inStock": true,
@@ -74,8 +74,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98306",
-        "name": "Cooking mix",
-        "ingredients": "flavorings, roasted mushrooms, toast, tumeric",
+        "name": "Spring Mix",
+        "ingredients": " roasted mushrooms, toast, turmeric",
         "caffeineScale": 230,
         "price": 6973,
         "inStock": true,
@@ -87,7 +87,7 @@
     {
         "_id": "55c8ee82152165d244b98307",
         "name": "Cooking stew",
-        "ingredients": "eggplant",
+        "ingredients": "eggplant, ginger, kale",
         "caffeineScale": 122,
         "price": 6003,
         "inStock": true,
@@ -99,7 +99,7 @@
     {
         "_id": "55c8ee82152165d244b98308",
         "name": "Prevenient herb tea",
-        "ingredients": "cream of tartar, cream of cream, kitchen scraps, flavorings",
+        "ingredients": "oregano, chive, dill, floral",
         "caffeineScale": 196,
         "price": 1374,
         "inStock": true,
@@ -110,8 +110,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98309",
-        "name": "Angular mix",
-        "ingredients": "hot sauce, lawn clippings, fennel, parsley, quinine",
+        "name": "Early Grey Spice",
+        "ingredients": "fennel, parsley, oak",
         "caffeineScale": 196,
         "price": 4158,
         "inStock": true,

@@ -34,7 +34,6 @@ app.controller('CartController', ['$scope', "bag", "cart", function($scope, bag,
       })
     $scope.total = $scope.totalIt()
     }
-    //!!!!is this best way to get cart provider data into view?
     $scope.cartUpdate = function(item, that){
       console.log(that);
       if (item.quantity > 0){
