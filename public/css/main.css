@@ -1,16 +1,36 @@
+* {
+  font-family: Arial;
+  /*font-size: 22px;*/
+}
+
 .home-button {
   background-color: #F3B450;
   color:white;
-  width: 120px;
-  margin-right: 50px;
+  margin-right: 20px;
+}
+
+.searchbox {
+  height: 100%;
+}
+
+.select {
+  height: 45px;
+}
+
+.home-button-marg {
+  margin: 9px 0;
 }
 
 .search-cat {
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 .nopad{
   padding:0;
+}
+
+.navbar-home {
+  margin-bottom: 0;
 }
 
 .welcome > a {
@@ -43,7 +63,6 @@
   text-decoration: none;
 }
 
-
 .no-pad-L {
   padding-left:0 !important;
 }
@@ -53,7 +72,7 @@
 }
 
 .float-margin {
-  margin: 2vw;
+  margin: 0 2vw 20px 0;
 }
 
 .table-striped{
@@ -65,6 +84,10 @@
   text-align: center;
 }
 
+th {
+  font-size: 22pt;
+}
+
 table td {
   padding: 40px 20px !important;
 }
@@ -72,7 +95,19 @@ table td {
 .tea-img{
   border: 7px solid #F3B450;
   border-radius: 50%;
+  width: 30vw;
+  max-width: 400px;
 }
+
+.tea-img-checkout{
+  border: 7px solid #F3B450;
+  border-radius: 50%;
+  width: 20vw;
+  max-width: 200px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 .navbar-right{
   margin-right:0;
 }
@@ -88,10 +123,6 @@ table td {
   font-size: 20pt;
 }
 
-.add-section {
-
-}
-
 .total {
   border: 1px solid black;
   padding: 15px;
@@ -103,4 +134,33 @@ table td {
 
 .space{
   margin-top: 10px;
+}
+
+.quantinpt {
+  width:50px;
+}
+
+.product {
+  width: 65vw;
+}
+
+.quantity {
+  width:5vw;
+}
+
+
+.subtotal {
+  width: 5vw;
+}
+
+.sub-buttons {
+  width: 25vw;
+}
+
+.bothsub {
+  width: 22vw;
+}
+
+.remove {
+  margin-top: 5px;
 }

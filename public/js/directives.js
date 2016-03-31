@@ -8,12 +8,3 @@ app.directive('auHeader', function(){
     templateUrl: '../partials/header.html'
     }
 })
-
-app.directive('link', function(){
-  return {
-    link: function(scope, element, attrs) {
-      element.click(function(){
-      })
-    }
-  }
-})

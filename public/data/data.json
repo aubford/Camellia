@@ -2,7 +2,7 @@
     {
         "_id": "55c8ee82152165d244b98300",
         "name": "Bayard",
-        "ingredients": "curry, dill, barley",
+        "ingredients": "Curry, dill, barley.",
         "caffeineScale": 244,
         "price": 1540,
         "inStock": true,
@@ -15,7 +15,7 @@
     {
         "_id": "55c8ee82152165d244b98301",
         "name": "Maple Green",
-        "ingredients": "fennel, nutmeg, parsley, chive",
+        "ingredients": "Fennel, nutmeg, parsley, chive.",
         "caffeineScale": 49,
         "price": 7348,
         "inStock": true,
@@ -27,7 +27,7 @@
     {
         "_id": "55c8ee82152165d244b98302",
         "name": "Flexner white tea",
-        "ingredients": "grass, cream, raw mashed potato",
+        "ingredients": "Grass, cream, raw mashed potato.",
         "caffeineScale": 38,
         "price": 4991,
         "inStock": true,
@@ -39,7 +39,7 @@
     {
         "_id": "55c8ee82152165d244b98303",
         "name": "Pressor leaf",
-        "ingredients": "pepper, ginger, bay leaf",
+        "ingredients": "Pepper, ginger, bay leaf.",
         "caffeineScale": 153,
         "price": 5496,
         "inStock": true,
@@ -51,7 +51,7 @@
     {
         "_id": "55c8ee82152165d244b98304",
         "name": "Flexner veggie tea",
-        "ingredients": "cream of tartar, eggplant, cake",
+        "ingredients": "Cream of tartar, eggplant, cake.",
         "caffeineScale": 181,
         "price": 2445,
         "inStock": true,
@@ -63,7 +63,7 @@
     {
         "_id": "55c8ee82152165d244b98305",
         "name": "Topflighter malt",
-        "ingredients": "Tomato, creme fraiche, beef, tobacco",
+        "ingredients": "Tomato, creme fraiche, beef, tobacco.",
         "caffeineScale": 241,
         "price": 4486,
         "inStock": true,
@@ -75,7 +75,7 @@
     {
         "_id": "55c8ee82152165d244b98306",
         "name": "Spring Mix",
-        "ingredients": " roasted mushrooms, toast, turmeric",
+        "ingredients": "Roasted mushrooms, toast, turmeric.",
         "caffeineScale": 230,
         "price": 6973,
         "inStock": true,
@@ -87,7 +87,7 @@
     {
         "_id": "55c8ee82152165d244b98307",
         "name": "Cooking stew",
-        "ingredients": "eggplant, ginger, kale",
+        "ingredients": "Eggplant, ginger, kale.",
         "caffeineScale": 122,
         "price": 6003,
         "inStock": true,
@@ -99,7 +99,7 @@
     {
         "_id": "55c8ee82152165d244b98308",
         "name": "Prevenient herb tea",
-        "ingredients": "oregano, chive, dill, floral",
+        "ingredients": "Oregano, chive, dill, floral.",
         "caffeineScale": 196,
         "price": 1374,
         "inStock": true,
@@ -110,8 +110,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98309",
-        "name": "Early Grey Spice",
-        "ingredients": "fennel, parsley, oak",
+        "name": "Earl Grey Spice",
+        "ingredients": "Fennel, parsley, oak.",
         "caffeineScale": 196,
         "price": 4158,
         "inStock": true,

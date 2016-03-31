@@ -2,14 +2,19 @@ app.controller('MainController', ['$scope', 'cart', 'teas', 'bag', function($sco
       $scope.routes="HTML and Routes"
       $scope.working='Working'
       teas($scope, "teas")
-      $scope.count = cart.length
+      $scope.count = cart.reduce(function(sum,e){
+        return sum + e.quantity
+      },0)
       $scope.pred="-"
 
       $scope.bagAdd =function(item){
         bag.update(item, true)
 
         item.quantity = '1'
-        $scope.count = cart.length
+
+        $scope.count = cart.reduce(function(sum,e){
+          return sum + e.quantity
+        },0)
       }
 
     }])

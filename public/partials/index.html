@@ -1,7 +1,7 @@
 <header class="container-fluid">
   <div class="row">
     <div class="welcome"><a href="#/">Camellia</a></div>
-    <nav class="navbar navbar-default navbar-lg">
+    <nav class="navbar navbar-default navbar-lg navbar-home">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -14,12 +14,12 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <div class="row">
-            <form class="navbar-form navbar-left nopad" role="search">
-              <div class="form-group search-cat">
+          <!-- <div class="row"> -->
+            <form class="navbar-form navbar-left nopad col-xs-10" role="search">
+              <div class=" form-group search-cat">
                 <a class="btn home-button" href="#/">Home</a>
                 <label for="category">Search by category:</label>
-                <select name="category" ng-model="category">
+                <select name="category" class="select" ng-model="category">
                   <option value="">All</option>
                   <option value="dark">Dark</option>
                   <option value="cold">Cold</option>
@@ -34,12 +34,12 @@
               </div>
               <div class="form-group">
                 <label for="search">Search by name:</label>
-                <input type="text" name="search" class="form-control" placeholder="Search" ng-model="search">
+                <input type="text" name="search" class="form-control searchbox" placeholder="Search" ng-model="search">
               </div>
             </form>
             <a href="#/checkout" type="button" class="btn btn-warning navbar-btn navbar-right" style="padding-right: ">Checkout | Bag: {{count}}</a>
 
-          </div>
+          <!-- </div> -->
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
@@ -69,7 +69,7 @@
               <b class="tea-name">{{tea.name}}</b>
               <div class="pull-right">
                 <label for="quantity">Quantity:</label>
-                <select name="quantity" style="width:60px" ng-model="tea.quantity">
+                <select name="quantity" style="width:60px" class="select" ng-model="tea.quantity">
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -82,12 +82,12 @@
                 <button class="btn btn-warning" ng-click="bagAdd(tea)">Add to Bag</button>
               </div>
               <div class="info">
-                <p>Price: {{tea.price | currency}}</p>
-                <p>Caffeine Scale: {{tea.caffeineScale}}</p>
-                <p>Flavor Profile: {{tea.ingredients}}</p>
-                <p>Rating: {{tea.rating}}</p>
-                <p>In Stock?: {{tea.inStock}}</p>
-                <p>Categories:
+                <p><b>Price:</b> {{tea.price | currency}}</p>
+                <p><b>Caffeine Scale:</b> {{tea.caffeineScale}}</p>
+                <p><b>Flavor Profile:</b> {{tea.ingredients}}</p>
+                <p><b>Rating:</b> {{tea.rating}}</p>
+                <p><b>In Stock?:</b> {{tea.inStock}}</p>
+                <p><b>Categories:</b>
                   <ul>
                     <li ng-repeat="category in tea.categories">{{category}}</li>
                   </ul>
